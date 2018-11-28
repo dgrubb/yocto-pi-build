@@ -31,7 +31,7 @@ Verifies that prerequisite packages are present and will install them if found t
 
 Checks shell is set to BASH, downloads Yocto contents, configures and executes specified build target (see below).
 
-# Usage
+## Usage
 
 ```
 $ ./yocto-pi-build.sh TARGET
