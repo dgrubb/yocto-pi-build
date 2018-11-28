@@ -6,7 +6,8 @@ build for the Raspberry Pi. Based around the steps outlined at
 
 ## Screeenshot
 
-![Yocto build](./preview/yocto-build.png)
+![Yocto boot](./preview/yocto-boot.jpg)
+![Yocto login](./preview/yocto-login.jpg)
 
 ## Requirements
 
