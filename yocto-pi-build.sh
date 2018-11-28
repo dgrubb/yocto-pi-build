@@ -21,7 +21,7 @@ readonly UPSTREAM_BRANCH="thud"
 readonly POKY_DIR="poky-$UPSTREAM_BRANCH"
 readonly RPI_DIR="rpi"
 readonly USAGE="Usage:\n\n\
-    $ ./install-yocto-prerequisites.sh TARGET\n\n\
+    $ ./yocto-pi-build.sh TARGET\n\n\
 Where TARGET is one of:\n\n\
     ap-image\n\
     audio-image\n\

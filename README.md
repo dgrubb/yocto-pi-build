@@ -18,20 +18,23 @@ been set:
  $ sudo dpkg-reconfigure dash
 ```
 
-Select No. Otherwise, yocto-pi-build.sh will exit with a warning message if launched 
+Select No. Otherwise, _yocto-pi-build.sh_ will exit with a warning message if launched 
 in the context of any other shell.
 
 ## Contents
 
-* install-yocto-prerequisites.sh: Verifies that prerequisite packages are present 
-and will install them if found to be absent.
-* yocto-pi-build.sh: Checks shell is set to BASH, downloads Yocto contents, configures 
-and executes specified build target (see below).
+* install-yocto-prerequisites.sh
+
+Verifies that prerequisite packages are present and will install them if found to be absent.
+
+* yocto-pi-build.sh
+
+Checks shell is set to BASH, downloads Yocto contents, configures and executes specified build target (see below).
 
 # Usage
 
 ```
-$ ./install-yocto-prerequisites.sh TARGET
+$ ./yocto-pi-build.sh TARGET
 ```
 
 Where TARGET is one of:
