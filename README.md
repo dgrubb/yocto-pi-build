@@ -34,7 +34,7 @@ and executes specified build target (see below).
 $ ./install-yocto-prerequisites.sh TARGET
 ```
 
-Where OUTPUT is one of:
+Where TARGET is one of:
 
 * ap-image
 * audio-image

@@ -22,7 +22,7 @@ readonly POKY_DIR="poky-$UPSTREAM_BRANCH"
 readonly RPI_DIR="rpi"
 readonly USAGE="Usage:\n\n\
     $ ./install-yocto-prerequisites.sh TARGET\n\n\
-Where OUTPUT is one of:\n\n\
+Where TARGET is one of:\n\n\
     ap-image\n\
     audio-image\n\
     console-basic-image\n\
